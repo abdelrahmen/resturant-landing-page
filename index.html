@@ -3,25 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5241a2323.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <header class="big-nav-bar">
-        <div class="logo">
-            <img src="https://www.pngall.com/wp-content/uploads/8/Restaurant-Logo.png" alt="resturant logo">
+
+    <header id="header" class="big-nav-bar">
+        <div class="logo-container">
+            <img id="header-img" src="assets/—Pngtree—ramen poached egg food.png" alt="resturant logo">
         </div>
-        <nav>
-            <ul class="nav">
-                <li><a href="#features">features</a></li>
-                <li><a href="#how">how</a></li>
-                <li><a href="#pricing">pricing</a></li>
-            </ul>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Menu">Menu</a>
+            <a class="nav-link" href="#Locations">Locations</a>
+            <a class="nav-link" href="#Contact">Contact</a>
         </nav>
     </header>
+    <div class="space"></div>
+    <div class="slogan-and-pic">
+        <p class="slogan">Where every flavor <br><span class="bold">tells a story</span></p>
+        <img class="slogan-pic"
+            src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000">
+    </div>
+    <h1 id="Menu">Menu</h1>
+    <img class="menu-pic"
+        src="https://img.freepik.com/free-vector/digital-restaurant-menu-horizontal-format_23-2148649585.jpg?w=1060&t=st=1660328132~exp=1660328732~hmac=e8696a26bcff78f018d4079c0b833bcb9dc200b95bd8e5230ff22283441a22b6"
+        alt="menu">
+    <h1 id="Locations">Locations</h1>
+    <p class="Location"><i class="fa-solid fa-location-dot"></i> 501 N Orlando Ave #243, Winter Park, Florida</p>
+    <p class="Location"><i class="fa-solid fa-location-dot"></i> 211 Broad St, Prescott, West Virginia</p>
+    <p class="Location"><i class="fa-solid fa-location-dot"></i> 1400 S Kansas Ave, Newton, Kansas</p>
+    <p class="Location"><i class="fa-solid fa-location-dot"></i> 1825 W Chew St, Allentown, Pennsylvania</p>
+    <h1 id="Contact">Contact</h1>
+    <div class="video-container">
+        <video id="video" controls>
+            <source src="https://drive.google.com/uc?export=download&id=1fdDiCrSVjtngHtJZ6MwvVxfnwUJBCG78"
+                type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1>Subscribe to Our News Letter</h1>
+        <input id="email" placeholder= "Enter Your Email Address" type="email">
+        <input id="Subscribe" type="submit" value="Subscribe">
+    </form>
+    <!-- <div class="slogan-and-pic">
+        <img class="slogan-pic" src="https://img.freepik.com/premium-photo/concept-indian-cuisine-baked-chicken-wings-legs-honey-mustard-sauce-serving-dishes-restaurant-black-plate-indian-spices-wooden-table-background-image_127425-18.jpg?w=2000" alt="chicken pic">
+        <p class="slogan">A taste you'll remember</p>
+    </div> -->
 </body>
 
 </html>
